@@ -69,7 +69,7 @@ in multiple ways. Below I'll present you with some alternatives.
 Now that we have the credentials, we can access the `AWS`. To do it so, open and change
 the **terraform/main.tf** file:
 
-```json
+```hcl
 provider "aws" {
   region     = var.aws_region
   access_key = "my-access-key"
@@ -105,7 +105,7 @@ terraform init
 
 In order to fit our need, we can change the instance properties by changing the  **terraform/variables.tf** values:
 
-```json
+```hcl
 # Region of the project
 variable "aws_region" {
   type        = string
