@@ -1,6 +1,6 @@
 # Testing AWS provider with Terraform
 
-Basic example of how to use modules in Terraform, interacting with
+Basic example of how to use modules in `Terraform`, interacting with
 `AWS` cloud provider.
 
 > If you don't have an `AWS` account just click [here](https://aws.amazon.com/account/), click on the top right corner and follow the steps provided.
