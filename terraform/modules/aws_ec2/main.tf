@@ -4,7 +4,7 @@
 
 # Terraform version requirement
 terraform {
-  required_version = ">= 0.12"
+  required_version = ">= 0.13"
 }
 
 # Instancitae new ec2 instance with given parameters
