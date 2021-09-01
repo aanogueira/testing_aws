@@ -11,4 +11,7 @@ terraform {
 resource "aws_instance" "webserver" {
   instance_type = var.aws_type
   ami           = var.aws_ami
+  metadata_options {
+    http_tokens = "required"
+  }
 }
